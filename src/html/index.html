@@ -12,74 +12,17 @@
 </head>
 
 <body>
-  <header>
-    <img src="./assets/images/ico-menu.svg" alt="menu">
-  </header>
+
+  <include src="./partials/header.html"></include>
 
   <main>
-
-    <section class="hero">
-      <h1>Anonymous proxy</h1>
-      <p>In hac habitasse platea dictumst.</p>
-      <img src="./assets/images/ico-scroll-down.svg" alt="Arrow pointing down">
-
-    </section>
-
-    <section class="white">
-      <small>Insomnia tips</small>
-      <h2>Looking through a window</h2>
-      <p>Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex diam nec lectus. Vivamus
-        semper sodales rutrum.</p>
-      <p>Go</p>
-    </section>
-
-    <section class="blue">
-
-      <h2>3 Reasons to purchase</h2>
-
-      <div class="blue__articles">
-        <article class="blue__article">
-          <p>Ut sed metus</p>
-          <p>Lorem ipsum dolor sit amet, consecteur.</p>
-        </article>
-        <article class="blue__article">
-          <p>Curabitur ac erat</p>
-          <p>Mauris mattis urna quis lorem molestie.</p>
-        </article>
-        <article class="blue__article">
-          <p>Morbi dictum</p>
-          <p>Aliquam in dolor et dolor tincidunt.</p>
-        </article>
-      </div>
-
-      <p>More reasons</p>
-
-      <img src="./assets/images/ico-arrow.svg" alt="Arrow pointing up">
-
-    </section>
+    <include src="./partials/hero.html"></include>
+    <include src="./partials/white_section.html"></include>
+    <include src="./partials/blue_section.html"></include>
   </main>
 
-  <footer>
-    <section>
-      <ul>
-        <li>Articles</li>
-        <li>Books</li>
-        <li>Events</li>
-        <li>Reasons</li>
-        <li>Tips</li>
-      </ul>
-      <ul>
-        <li>Twitter</li>
-        <li>Instagram</li>
-        <li>Mastodon.social</li>
-      </ul>
-      <div>
-        <small>&copy2022</small>
-        <small>we <i class="fa-solid fa-heart"></i> components</small>
+  <include src="./partials/footer.html"></include>
 
-      </div>
-    </section>
-  </footer>
 
 </body>
 
