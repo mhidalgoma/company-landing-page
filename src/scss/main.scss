@@ -51,7 +51,6 @@
 
 // STYLES WHITE SECTION
 .white {
-  border: 2px solid black;
   margin-top: 15px;
   padding: 45px 15px;
 
@@ -73,11 +72,71 @@
   }
   &__button {
     border: solid 2px $color-bt;
-    border-radius: 20px;
-    padding: 10px;
+    border-radius: 50px;
+    padding: 12px;
     color: $color-bt;
     text-align: center;
     width: 50px;
     margin-top: 30px;
+  }
+  &__arrow {
+    background-color: $color-1;
+  }
+}
+
+// STYLES BLUE SECTION
+.blue {
+  background-color: $color-2transp;
+  padding: 29px 15px 15px 15px;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+
+  &__title {
+    font-family: $font-title;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  &__articles {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 44px;
+    padding: 20px 55px;
+    width: 200px;
+  }
+  &__article {
+    &--title {
+      font-family: $font-title;
+      text-align: center;
+      line-height: 1.5;
+    }
+    &--text {
+      text-align: center;
+      line-height: 1.5;
+    }
+  }
+  &__button {
+    background-color: $color-bt;
+    padding: 12px;
+    border-radius: 50px;
+    width: 170px;
+    font-size: 20px;
+    color: $color-1;
+    text-align: center;
+    justify-self: center;
+    margin-top: 30px;
+  }
+  &__arrow {
+    background-color: $color-1;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    transform: translate(0%, 90%);
+    box-shadow: 1px 1px 5px 0px rgb(215, 215, 215);
   }
 }
