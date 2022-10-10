@@ -249,11 +249,29 @@ a:active {
     justify-content: center;
     justify-self: center;
     transform: translate(0%, 90%);
-    box-shadow: 1px 1px 5px 0px black; }
+    box-shadow: 1px 1px 5px 0px black;
+    -webkit-animation-name: arrow-animation;
+    animation-name: arrow-animation;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite; }
 
 .blue__button:hover {
   transform: scale(1.3);
   transition: 3s; }
+
+@-webkit-keyframes arrow-animation {
+  from {
+    transform: translate(0%, 90%); }
+  to {
+    transform: translate(0%, 70%); } }
+
+@keyframes arrow-animation {
+  from {
+    transform: translate(0%, 90%); }
+  to {
+    transform: translate(0%, 70%); } }
 
 .footer {
   background-color: #304268;

@@ -152,6 +152,9 @@
     justify-self: center;
     transform: translate(0%, 90%);
     box-shadow: 1px 1px 5px 0px rgb(0, 0, 0);
+    animation-name: arrow-animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
   }
 }
 .blue__button:hover {
@@ -159,6 +162,15 @@
   -ms-transform: scale(1.3);
   transform: scale(1.3);
   transition: 3s;
+}
+
+@keyframes arrow-animation {
+  from {
+    transform: translate(0%, 90%);
+  }
+  to {
+    transform: translate(0%, 70%);
+  }
 }
 // STYLES FOOTER
 .footer {
