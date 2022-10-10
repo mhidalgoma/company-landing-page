@@ -236,10 +236,45 @@ a:active {
     justify-content: center;
     justify-self: center;
     transform: translate(0%, 90%);
-    box-shadow: 1px 1px 5px 0px #d7d7d7; }
+    box-shadow: 1px 1px 5px 0px black; }
 
 .footer {
   background-color: #304268;
-  color: white; }
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 50px; }
+
+.fcontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px; }
+  .fcontent .link {
+    color: white; }
+  .fcontent__sections {
+    text-transform: uppercase;
+    line-height: 25px;
+    text-align: center;
+    width: 100px; }
+    .fcontent__sections--link {
+      color: white;
+      font-size: 16px; }
+  .fcontent__social {
+    text-transform: uppercase;
+    line-height: 25px;
+    text-align: center;
+    width: 160px; }
+    .fcontent__social--link {
+      color: white;
+      font-size: 16px; }
+  .fcontent__small {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    font-size: 14px; }
+    .fcontent__small .fa-solid {
+      color: #dd3434; }
 
 /*# sourceMappingURL=main.css.map */
