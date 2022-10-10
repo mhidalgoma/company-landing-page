@@ -364,7 +364,8 @@ a:active {
       flex-direction: row;
       width: 700px;
       gap: 120px;
-      justify-content: center; } }
+      justify-content: center;
+      align-items: flex-start; } }
   .fcontent .link {
     color: white; }
   .fcontent__sections {
@@ -401,7 +402,8 @@ a:active {
     @media all and (min-width: 768px) {
       .fcontent__small {
         align-items: flex-start;
-        align-self: flex-start; } }
+        align-self: flex-start;
+        margin-top: 0px; } }
     .fcontent__small .fa-solid {
       color: #dd3434; }
 

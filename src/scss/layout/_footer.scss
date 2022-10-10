@@ -17,6 +17,7 @@
     width: 700px;
     gap: 120px;
     justify-content: center;
+    align-items: flex-start;
   }
 
   .link {
@@ -60,6 +61,7 @@
     @media all and (min-width: 768px) {
       align-items: flex-start;
       align-self: flex-start;
+      margin-top: 0px;
     }
     .fa-solid {
       color: rgb(221, 52, 52);
