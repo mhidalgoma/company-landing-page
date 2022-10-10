@@ -9,7 +9,6 @@
   align-items: center;
   justify-content: flex-end;
   color: $color-1;
-
   &__title {
     font-family: $font-title;
     font-size: 42px;
@@ -26,7 +25,6 @@
       width: 900px;
     }
   }
-
   &__subtitle {
     font-size: 16px;
     margin-top: 10px;
@@ -42,8 +40,8 @@
   }
   &__arrow {
     background-color: $color-1;
-    width: 37px;
-    height: 37px;
+    width: 45px;
+    height: 45px;
     border-radius: 50px;
     display: flex;
     align-items: center;

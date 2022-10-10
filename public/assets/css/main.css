@@ -183,8 +183,8 @@ a:active {
         width: 30vw; } }
   .hero__arrow {
     background-color: white;
-    width: 37px;
-    height: 37px;
+    width: 45px;
+    height: 45px;
     border-radius: 50px;
     display: flex;
     align-items: center;
@@ -405,6 +405,6 @@ a:active {
         align-self: flex-start;
         margin-top: 0px; } }
     .fcontent__small .fa-solid {
-      color: #dd3434; }
+      color: #f26002; }
 
 /*# sourceMappingURL=main.css.map */
