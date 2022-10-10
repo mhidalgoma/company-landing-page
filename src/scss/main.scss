@@ -1,8 +1,83 @@
-@import 'core/variables';
-@import 'core/reset';
-@import 'components/code';
-@import 'components/links';
-@import 'layout/page';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'pages/index';
+@import "core/variables";
+@import "core/reset";
+// @import 'components/code';
+// @import 'components/links';
+// @import 'layout/page';
+// @import 'layout/header';
+// @import 'layout/footer';
+// @import 'pages/index';
+
+:root {
+  font-family: $font-text;
+  font-size: 18px;
+}
+
+// STYLES HERO
+.hero {
+  background-image: url("../images/cover.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  color: $color-1;
+
+  &__title {
+    font-family: $font-title;
+    font-size: 42px;
+    text-transform: uppercase;
+    width: 400px;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  &__subtitle {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  &__arrow {
+    background-color: $color-1;
+    width: 37px;
+    height: 37px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 37px;
+  }
+}
+
+// STYLES WHITE SECTION
+.white {
+  border: 2px solid black;
+  margin-top: 15px;
+  padding: 45px 15px;
+
+  &__title {
+    font-family: $font-title;
+    text-transform: capitalize;
+    font-size: 24px;
+    line-height: 1.25;
+    margin-bottom: 15px;
+  }
+  &__small {
+    color: $color-2;
+    font-size: 14px;
+    line-height: 2.5;
+  }
+  &__text {
+    line-height: 1.5;
+    color: $color-text;
+  }
+  &__button {
+    border: solid 2px $color-bt;
+    border-radius: 20px;
+    padding: 10px;
+    color: $color-bt;
+    text-align: center;
+    width: 50px;
+    margin-top: 30px;
+  }
+}

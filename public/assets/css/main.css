@@ -126,4 +126,64 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+:root {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px; }
+
+.hero {
+  background-image: url("../images/cover.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  color: white; }
+  .hero__title {
+    font-family: "Roboto Slab", serif;
+    font-size: 42px;
+    text-transform: uppercase;
+    width: 400px;
+    text-align: center;
+    line-height: 1.5; }
+  .hero__subtitle {
+    font-size: 16px;
+    margin-top: 10px; }
+  .hero__arrow {
+    background-color: white;
+    width: 37px;
+    height: 37px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 37px; }
+
+.white {
+  border: 2px solid black;
+  margin-top: 15px;
+  padding: 45px 15px; }
+  .white__title {
+    font-family: "Roboto Slab", serif;
+    text-transform: capitalize;
+    font-size: 24px;
+    line-height: 1.25;
+    margin-bottom: 15px; }
+  .white__small {
+    color: #8ccbea;
+    font-size: 14px;
+    line-height: 2.5; }
+  .white__text {
+    line-height: 1.5;
+    color: #4a4a4a; }
+  .white__button {
+    border: solid 2px #f26002;
+    border-radius: 20px;
+    padding: 10px;
+    color: #f26002;
+    text-align: center;
+    width: 50px;
+    margin-top: 30px; }
+
 /*# sourceMappingURL=main.css.map */
