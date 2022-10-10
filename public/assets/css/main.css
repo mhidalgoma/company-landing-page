@@ -161,9 +161,26 @@ a:active {
     width: 400px;
     text-align: center;
     line-height: 1.5; }
+    @media all and (min-width: 768px) {
+      .hero__title {
+        font-size: 80px;
+        width: 700px; } }
+    @media all and (min-width: 1280px) {
+      .hero__title {
+        font-size: 100px;
+        width: 900px; } }
   .hero__subtitle {
     font-size: 16px;
-    margin-top: 10px; }
+    margin-top: 10px;
+    text-align: center;
+    line-height: 1.2; }
+    @media all and (min-width: 768px) {
+      .hero__subtitle {
+        font-size: 24px;
+        width: 30vw; } }
+    @media all and (min-width: 1280px) {
+      .hero__subtitle {
+        width: 30vw; } }
   .hero__arrow {
     background-color: white;
     width: 37px;
@@ -177,6 +194,12 @@ a:active {
 .white {
   margin-top: 15px;
   padding: 45px 15px; }
+  @media all and (min-width: 768px) {
+    .white {
+      padding: 45px 39px; } }
+  @media all and (min-width: 1280px) {
+    .white {
+      padding: 45px 275px; } }
   .white__title {
     font-family: "Roboto Slab", serif;
     text-transform: capitalize;
@@ -198,6 +221,12 @@ a:active {
     text-align: center;
     width: 50px;
     margin-top: 30px; }
+    @media all and (min-width: 768px) {
+      .white__button {
+        width: 70px; } }
+    @media all and (min-width: 1280px) {
+      .white__button {
+        width: 140px; } }
   .white__arrow {
     background-color: white; }
 
@@ -216,29 +245,61 @@ a:active {
     font-size: 24px;
     text-align: center;
     margin-bottom: 30px; }
+    @media all and (min-width: 768px) {
+      .blue__title {
+        font-size: 26px;
+        margin-top: 7px; } }
+    @media all and (min-width: 1280px) {
+      .blue__title {
+        font-size: 32px;
+        margin-top: 32px; } }
   .blue__articles {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 44px;
-    padding: 20px 55px;
-    width: 200px; }
-  .blue__article--title {
-    font-family: "Roboto Slab", serif;
-    text-align: center;
-    line-height: 1.5; }
-  .blue__article--text {
-    text-align: center;
-    line-height: 1.5; }
+    padding: 20px 55px; }
+    @media all and (min-width: 768px) {
+      .blue__articles {
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 20px 35px; } }
+  .blue__article {
+    width: 180px; }
+    @media all and (min-width: 768px) {
+      .blue__article {
+        width: 212px; } }
+    @media all and (min-width: 1280px) {
+      .blue__article {
+        width: 355px; } }
+    .blue__article--title {
+      font-family: "Roboto Slab", serif;
+      text-align: center;
+      line-height: 1.5; }
+      @media all and (min-width: 768px) {
+        .blue__article--title {
+          font-size: 24px; } }
+    .blue__article--text {
+      text-align: center;
+      line-height: 1.5; }
+      @media all and (min-width: 768px) {
+        .blue__article--text {
+          font-size: 20px; } }
   .blue__button {
     background-color: #f26002;
     padding: 12px;
     border-radius: 50px;
-    width: 170px;
+    width: 184px;
     font-size: 20px;
     color: white;
     text-align: center;
     justify-self: center;
     margin-top: 30px; }
+    @media all and (min-width: 768px) {
+      .blue__button {
+        width: 210px; } }
+    @media all and (min-width: 1280px) {
+      .blue__button {
+        width: 255px; } }
   .blue__arrow {
     background-color: white;
     width: 45px;
@@ -277,13 +338,21 @@ a:active {
   background-color: #304268;
   color: white;
   padding-top: 60px;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center; }
 
 .fcontent {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 30px; }
+  @media all and (min-width: 768px) {
+    .fcontent {
+      flex-direction: row;
+      width: 700px;
+      gap: 120px;
+      justify-content: center; } }
   .fcontent .link {
     color: white; }
   .fcontent__sections {
@@ -291,6 +360,10 @@ a:active {
     line-height: 25px;
     text-align: center;
     width: 100px; }
+    @media all and (min-width: 768px) {
+      .fcontent__sections {
+        text-align: left;
+        order: 1; } }
     .fcontent__sections--link {
       color: white;
       font-size: 16px; }
@@ -299,6 +372,10 @@ a:active {
     line-height: 25px;
     text-align: center;
     width: 160px; }
+    @media all and (min-width: 768px) {
+      .fcontent__social {
+        text-align: left;
+        order: 2; } }
     .fcontent__social--link {
       color: white;
       font-size: 16px; }
@@ -309,6 +386,10 @@ a:active {
     align-items: center;
     gap: 15px;
     font-size: 14px; }
+    @media all and (min-width: 768px) {
+      .fcontent__small {
+        align-items: flex-start;
+        align-self: flex-start; } }
     .fcontent__small .fa-solid {
       color: #dd3434; }
 

@@ -39,11 +39,28 @@
     width: 400px;
     text-align: center;
     line-height: 1.5;
+    @media all and (min-width: 768px) {
+      font-size: 80px;
+      width: 700px;
+    }
+    @media all and (min-width: 1280px) {
+      font-size: 100px;
+      width: 900px;
+    }
   }
 
   &__subtitle {
     font-size: 16px;
     margin-top: 10px;
+    text-align: center;
+    line-height: 1.2;
+    @media all and (min-width: 768px) {
+      font-size: 24px;
+      width: 30vw;
+    }
+    @media all and (min-width: 1280px) {
+      width: 30vw;
+    }
   }
   &__arrow {
     background-color: $color-1;
@@ -61,6 +78,12 @@
 .white {
   margin-top: 15px;
   padding: 45px 15px;
+  @media all and (min-width: 768px) {
+    padding: 45px 39px;
+  }
+  @media all and (min-width: 1280px) {
+    padding: 45px 275px;
+  }
 
   &__title {
     font-family: $font-title;
@@ -86,6 +109,12 @@
     text-align: center;
     width: 50px;
     margin-top: 30px;
+    @media all and (min-width: 768px) {
+      width: 70px;
+    }
+    @media all and (min-width: 1280px) {
+      width: 140px;
+    }
   }
   &__arrow {
     background-color: $color-1;
@@ -111,35 +140,67 @@
     font-size: 24px;
     text-align: center;
     margin-bottom: 30px;
+    @media all and (min-width: 768px) {
+      font-size: 26px;
+      margin-top: 7px;
+    }
+    @media all and (min-width: 1280px) {
+      font-size: 32px;
+      margin-top: 32px;
+    }
   }
   &__articles {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 44px;
     padding: 20px 55px;
-    width: 200px;
+    @media all and (min-width: 768px) {
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+      padding: 20px 35px;
+    }
   }
   &__article {
+    width: 180px;
+    @media all and (min-width: 768px) {
+      width: 212px;
+    }
+    @media all and (min-width: 1280px) {
+      width: 355px;
+    }
+
     &--title {
       font-family: $font-title;
       text-align: center;
       line-height: 1.5;
+      @media all and (min-width: 768px) {
+        font-size: 24px;
+      }
     }
     &--text {
       text-align: center;
       line-height: 1.5;
+      @media all and (min-width: 768px) {
+        font-size: 20px;
+      }
     }
   }
   &__button {
     background-color: $color-bt;
     padding: 12px;
     border-radius: 50px;
-    width: 170px;
+    width: 184px;
     font-size: 20px;
     color: $color-1;
     text-align: center;
     justify-self: center;
     margin-top: 30px;
+    @media all and (min-width: 768px) {
+      width: 210px;
+    }
+    @media all and (min-width: 1280px) {
+      width: 255px;
+    }
   }
   &__arrow {
     background-color: $color-1;
@@ -178,12 +239,20 @@
   color: $color-1;
   padding-top: 60px;
   padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
 }
 .fcontent {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 30px;
+  @media all and (min-width: 768px) {
+    flex-direction: row;
+    width: 700px;
+    gap: 120px;
+    justify-content: center;
+  }
 
   .link {
     color: $color-1;
@@ -193,6 +262,10 @@
     line-height: 25px;
     text-align: center;
     width: 100px;
+    @media all and (min-width: 768px) {
+      text-align: left;
+      order: 1;
+    }
     &--link {
       color: $color-1;
       font-size: 16px;
@@ -203,6 +276,10 @@
     line-height: 25px;
     text-align: center;
     width: 160px;
+    @media all and (min-width: 768px) {
+      text-align: left;
+      order: 2;
+    }
     &--link {
       color: $color-1;
       font-size: 16px;
@@ -215,6 +292,10 @@
     align-items: center;
     gap: 15px;
     font-size: 14px;
+    @media all and (min-width: 768px) {
+      align-items: flex-start;
+      align-self: flex-start;
+    }
     .fa-solid {
       color: rgb(221, 52, 52);
     }
