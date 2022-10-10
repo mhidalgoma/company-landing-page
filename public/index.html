@@ -16,18 +16,18 @@
 
 <body>
 
-  <header>
-      <nav>
-          <img src="./assets/images/ico-menu.svg" alt="menu">
+  <header class="header">
+      <nav class="header__nav">
+          <img class="header__nav--img" src="./assets/images/ico-menu.svg" alt="menu">
       </nav>
   </header>
 
   <main>
-    <section class="hero">
+    <section id="hero" class="hero">
         <h1 class="hero__title">Anonymous proxy</h1>
         <p class="hero__subtitle">In hac habitasse platea dictumst.</p>
         <div class="hero__arrow">
-            <img src="./assets/images/ico-scroll-down.svg" alt="Arrow pointing down">
+            <a href="#reasons"><img src="./assets/images/ico-scroll-down.svg" alt="Arrow pointing down"></a>
         </div>
     </section>
     <section class="white">
@@ -38,7 +38,7 @@
             semper sodales rutrum.</p>
         <p class="white__button">Go</p>
     </section>
-    <section class="blue">
+    <section id="reasons" class="blue">
 
         <h2 class="blue__title">3 Reasons to purchase</h2>
         <div class="blue__articles">
@@ -56,8 +56,10 @@
             </article>
         </div>
         <p class="blue__button">More reasons</p>
-        <div class="blue__arrow"><img src="./assets/images/ico-arrow.svg" alt="Arrow pointing up">
+
+        <div class="blue__arrow"><a href="#hero"><img src="./assets/images/ico-arrow.svg" alt="Arrow pointing up"> </a>
         </div>
+
 
 
     </section>
