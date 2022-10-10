@@ -1,0 +1,106 @@
+// STYLES BLUE SECTION
+.blue {
+  background-color: $color-2transp;
+  padding: 29px 15px 15px 15px;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+
+  &__title {
+    font-family: $font-title;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+    @media all and (min-width: 768px) {
+      font-size: 26px;
+      margin-top: 7px;
+    }
+    @media all and (min-width: 1280px) {
+      font-size: 32px;
+      margin-top: 32px;
+    }
+  }
+  &__articles {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 44px;
+    padding: 20px 55px;
+    @media all and (min-width: 768px) {
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+      padding: 20px 35px;
+    }
+  }
+  &__article {
+    width: 180px;
+    @media all and (min-width: 768px) {
+      width: 212px;
+    }
+    @media all and (min-width: 1280px) {
+      width: 355px;
+    }
+
+    &--title {
+      font-family: $font-title;
+      text-align: center;
+      line-height: 1.5;
+      @media all and (min-width: 768px) {
+        font-size: 24px;
+      }
+    }
+    &--text {
+      text-align: center;
+      line-height: 1.5;
+      @media all and (min-width: 768px) {
+        font-size: 20px;
+      }
+    }
+  }
+  &__button {
+    background-color: $color-bt;
+    padding: 12px;
+    border-radius: 50px;
+    width: 184px;
+    font-size: 20px;
+    color: $color-1;
+    text-align: center;
+    justify-self: center;
+    margin-top: 30px;
+    @media all and (min-width: 768px) {
+      width: 210px;
+    }
+    @media all and (min-width: 1280px) {
+      width: 255px;
+    }
+  }
+  &__arrow {
+    background-color: $color-1;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    transform: translate(0%, 90%);
+    box-shadow: 1px 1px 5px 0px rgb(0, 0, 0);
+    animation-name: arrow-animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+}
+.blue__button:hover {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+  transition: 3s;
+}
+
+@keyframes arrow-animation {
+  from {
+    transform: translate(0%, 90%);
+  }
+  to {
+    transform: translate(0%, 70%);
+  }
+}

@@ -1,0 +1,53 @@
+// STYLES HERO
+.hero {
+  background-image: url("../images/cover.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  color: $color-1;
+
+  &__title {
+    font-family: $font-title;
+    font-size: 42px;
+    text-transform: uppercase;
+    width: 400px;
+    text-align: center;
+    line-height: 1.5;
+    @media all and (min-width: 768px) {
+      font-size: 80px;
+      width: 700px;
+    }
+    @media all and (min-width: 1280px) {
+      font-size: 100px;
+      width: 900px;
+    }
+  }
+
+  &__subtitle {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 1.2;
+    @media all and (min-width: 768px) {
+      font-size: 24px;
+      width: 30vw;
+    }
+    @media all and (min-width: 1280px) {
+      width: 30vw;
+    }
+  }
+  &__arrow {
+    background-color: $color-1;
+    width: 37px;
+    height: 37px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 37px;
+  }
+}

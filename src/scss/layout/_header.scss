@@ -1,0 +1,9 @@
+// STYLES HEADER
+.header {
+  background-color: $color-menu;
+  width: fit-content;
+  position: fixed;
+  &__nav {
+    padding: 10px 12px;
+  }
+}

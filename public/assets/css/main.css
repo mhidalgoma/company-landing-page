@@ -206,13 +206,25 @@ a:active {
     font-size: 24px;
     line-height: 1.25;
     margin-bottom: 15px; }
+    @media all and (min-width: 768px) {
+      .white__title {
+        font-size: 26px; } }
+    @media all and (min-width: 1280px) {
+      .white__title {
+        font-size: 32px; } }
   .white__small {
     color: #8ccbea;
     font-size: 14px;
     line-height: 2.5; }
+    @media all and (min-width: 1280px) {
+      .white__small {
+        font-size: 16px; } }
   .white__text {
     line-height: 1.5;
     color: #4a4a4a; }
+    @media all and (min-width: 768px) {
+      .white__text {
+        font-size: 20px; } }
   .white__button {
     border: solid 2px #f26002;
     border-radius: 50px;
