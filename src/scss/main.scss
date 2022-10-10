@@ -1,7 +1,7 @@
 @import "core/variables";
 @import "core/reset";
 // @import 'components/code';
-// @import 'components/links';
+@import "components/links";
 // @import 'layout/page';
 // @import 'layout/header';
 // @import 'layout/footer';
@@ -140,3 +140,10 @@
     box-shadow: 1px 1px 5px 0px rgb(215, 215, 215);
   }
 }
+// FOOTER STYLES
+.footer {
+  background-color: $color-3;
+  color: $color-1;
+}
+.fcontent
+

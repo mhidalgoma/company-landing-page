@@ -126,6 +126,11 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+a:link,
+a:visited,
+a:active {
+  text-decoration: none; }
+
 :root {
   font-family: "Roboto", sans-serif;
   font-size: 18px; }
@@ -232,5 +237,9 @@ table {
     justify-self: center;
     transform: translate(0%, 90%);
     box-shadow: 1px 1px 5px 0px #d7d7d7; }
+
+.footer {
+  background-color: #304268;
+  color: white; }
 
 /*# sourceMappingURL=main.css.map */
