@@ -141,7 +141,7 @@ a:active {
   width: -moz-fit-content;
   width: fit-content;
   position: fixed; }
-  .header__nav {
+  .header__nav--img {
     padding: 10px 12px; }
 
 .hero {
@@ -221,24 +221,24 @@ a:active {
         font-size: 16px; } }
   .white__text {
     line-height: 1.5;
-    color: #4a4a4a; }
+    color: #4a4a4a;
+    margin-bottom: 50px; }
     @media all and (min-width: 768px) {
       .white__text {
         font-size: 20px; } }
   .white__button {
     border: solid 2px #f26002;
     border-radius: 50px;
-    padding: 12px;
+    padding: 12px 30px;
     color: #f26002;
     text-align: center;
-    width: 50px;
-    margin-top: 30px; }
+    width: 50px; }
     @media all and (min-width: 768px) {
       .white__button {
-        width: 70px; } }
+        padding: 12px 35px; } }
     @media all and (min-width: 1280px) {
       .white__button {
-        width: 140px; } }
+        padding: 12px 70px; } }
   .white__arrow {
     background-color: white; }
 
