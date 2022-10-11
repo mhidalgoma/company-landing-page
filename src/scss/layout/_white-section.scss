@@ -38,6 +38,7 @@
     }
   }
   &__button {
+    display: inline-block;
     border: solid 2px $color-bt;
     border-radius: 50px;
     padding: 12px 30px;
