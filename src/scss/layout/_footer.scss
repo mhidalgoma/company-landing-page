@@ -1,7 +1,7 @@
 // STYLES FOOTER
 .footer {
-  background-color: $color-3;
-  color: $color-1;
+  background-color: $color-menu;
+  color: black;
   padding-top: 60px;
   padding-bottom: 50px;
   display: flex;
@@ -11,7 +11,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
+  gap: 45px;
   @media all and (min-width: 768px) {
     flex-direction: row;
     width: 700px;
@@ -20,7 +20,7 @@
     align-items: flex-start;
   }
   .link {
-    color: $color-1;
+    color: black;
   }
   &__sections {
     text-transform: uppercase;
@@ -29,10 +29,9 @@
     width: 100px;
     @media all and (min-width: 768px) {
       text-align: left;
-      order: 1;
     }
     &--link {
-      color: $color-1;
+      color: black;
       font-size: 16px;
     }
   }
@@ -43,10 +42,9 @@
     width: 160px;
     @media all and (min-width: 768px) {
       text-align: left;
-      order: 2;
     }
     &--link {
-      color: $color-1;
+      color: black;
       font-size: 16px;
     }
   }
@@ -61,6 +59,11 @@
       align-items: flex-start;
       align-self: flex-start;
       margin-top: 0px;
+    }
+    &--components {
+      @media all and (min-width: 768px) {
+        color: $color-bt;
+      }
     }
     .fa-solid {
       color: $color-bt;
