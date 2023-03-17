@@ -1,11 +1,10 @@
-![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
+# Landing page de diseño propio
 
-# Ejercicio individual de evaluación del módulo 1
+Hola! Esta página web ha sido creada como **landing page** para practicar la creación de páginas web con el foco en **HTML** y **CSS** (incluyendo Sass).
 
-Hola! Esta página web ha sido creada como parte de un **ejercicio de evaluación individual** para evaluar el módulo 1 de Adalab. Este módulo constiste en practicar la creación de páginas web con el foco en **HTML** y **CSS** (incluyendo Sass).
+Es una página web responsiva de acuerdo a un diseño propio de una empresa de aceite de oliva ficticia usando:
 
-El ejercicio consiste en desarrollar una página web responsiva de acuerdo a un diseño dado. Hay que resolver varios puntos:
- - Usar **Sass**.
- - Usar **flexbox** y **CSS Grid**.
- - Usar **media queries**.
- - Resolver algunas **interacciones usando transiciones**.
+- **Sass**.
+- **Flexbox** y **CSS Grid**.
+- **Media queries**.
+- **Interacciones usando transiciones**.
