@@ -1,7 +1,10 @@
 // STYLES FOOTER
 .footer {
-  background-color: $color-menu;
-  color: black;
+  // background-color: $color-menu;
+  background-image: url('../images/background.png');
+  background-position: center;
+  background-size: cover;
+  color: white;
   padding-top: 60px;
   padding-bottom: 50px;
   display: flex;
@@ -20,7 +23,7 @@
     align-items: flex-start;
   }
   .link {
-    color: black;
+    color: white;
   }
   &__sections {
     text-transform: uppercase;
@@ -31,7 +34,7 @@
       text-align: left;
     }
     &--link {
-      color: black;
+      color: white;
       font-size: 16px;
     }
   }
@@ -44,7 +47,7 @@
       text-align: left;
     }
     &--link {
-      color: black;
+      color: white;
       font-size: 16px;
     }
   }
@@ -62,11 +65,11 @@
     }
     &--components {
       @media all and (min-width: 768px) {
-        color: $color-bt;
+        color: white;
       }
     }
     .fa-solid {
-      color: $color-bt;
+      color: $color-menu;
     }
   }
 }
